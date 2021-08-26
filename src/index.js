@@ -21,7 +21,7 @@ ReactDOM.render(
                 </li>
             </ul>
             <div>
-                <Route path="/" component={Agua} />
+                <Route exact path="/" component={Agua} />
                 <Route path="/inicial" component={Inicial} />
                 <Route path="/contato" component={Contato} />
             </div>
